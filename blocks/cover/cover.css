@@ -1,0 +1,23 @@
+.cover {
+    margin: 0 auto;
+    width: 92%;
+    background-image: url(../../images/train-station.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+@media screen and (min-width: 1280px) {
+    .cover {
+    min-height: 740px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .cover {
+    min-height: 640px;
+    }
+  }
