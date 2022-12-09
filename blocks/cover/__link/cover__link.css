@@ -28,3 +28,17 @@
         padding: 12% 0;
     }  
 }  
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .cover__link {
+        row-gap: 16px;
+        padding: 12% 0;
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        row-gap: 16px;
+        padding: 12% 0;
+    }  
+}  
