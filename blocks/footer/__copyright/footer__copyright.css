@@ -6,3 +6,15 @@
     line-height: 16px;
     color: #ffffff;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .footer__links {
+        line-height: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .footer__links {
+        line-height: 14px;
+    }
+  }
