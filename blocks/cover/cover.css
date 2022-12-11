@@ -1,6 +1,6 @@
 .cover {
     margin: 0 auto;
-    width: 92%;
+    width: 92.5%;
     background-image: url(../../images/train-station.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,14 +11,10 @@
     align-content: center;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover {
+        margin: 0;
         width: 100%;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .cover {
-        width: 100%;
-    }
-}

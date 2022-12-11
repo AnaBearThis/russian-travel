@@ -1,6 +1,6 @@
 .cover__link {
     width: 100%;
-    padding: 22% 0;
+    padding: 21% 0;
     background-color: rgba(42, 44, 47, 0.3);
     display: flex;
     flex-direction: column;
@@ -12,33 +12,18 @@
 }
 
 .cover__link:hover {
-    background-color: rgba(16, 17, 18, 0.8);
+    background-color: rgba(42, 44, 47, 0.8);
   }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cover__link {
-        row-gap: 16px;
-        padding: 12% 0;
+        padding: 23% 0;
     }    
 }
 
 @media screen and (max-width: 320px) {
     .cover__link {
+        padding: 10% 0;
         row-gap: 16px;
-        padding: 12% 0;
-    }  
-}  
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    .cover__link {
-        row-gap: 16px;
-        padding: 12% 0;
     }    
 }
-
-@media screen and (max-width: 320px) {
-    .cover__link {
-        row-gap: 16px;
-        padding: 12% 0;
-    }  
-}  
