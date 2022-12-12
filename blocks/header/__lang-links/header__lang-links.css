@@ -2,6 +2,7 @@
     margin-top: 18px;
     display: flex;
     column-gap: 18px;
+    list-style: none;
 }
 
 @media screen and (max-width: 320px) {

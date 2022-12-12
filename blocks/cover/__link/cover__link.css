@@ -1,10 +1,10 @@
 .cover__link {
     width: 100%;
-    padding: 21% 0;
+    min-height: 740px;
     background-color: rgba(42, 44, 47, 0.3);
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     row-gap: 32px;
     text-decoration: none;
@@ -15,15 +15,21 @@
     background-color: rgba(42, 44, 47, 0.8);
   }
 
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        min-height: 640px;
+    }    
+}
+
 @media screen and (max-width: 768px) {
     .cover__link {
-        padding: 15% 0;
+        min-height: 480px;
     }    
 }
 
 @media screen and (max-width: 320px) {
     .cover__link {
-        padding: 10% 0;
+        min-height: 200px;
         row-gap: 16px;
     }    
 }
